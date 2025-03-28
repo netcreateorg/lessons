@@ -1,7 +1,7 @@
 ---
 title: Net.Create Lesson Plan Templates
 layout: collection
-permalink: /templates
+permalink: /
 ---
 
 Decision tree link
