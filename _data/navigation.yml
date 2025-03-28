@@ -1,11 +1,11 @@
 # Site navigation links
 
-- title: Our Community
-  url: /
+- title: Net.Create Home
+  url: https://netcreate.org
   excerpt:
   image:
 
-- title: Our Collection
-  url: /collection
+- title: Lesson Plans
+  url: /
   excerpt:
   image:
