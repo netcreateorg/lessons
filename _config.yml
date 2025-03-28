@@ -55,7 +55,7 @@ description: "Net.Create helps teachers and students effectively connect humanit
 # Main author of the website.
 author: "NetCreate"
 authorname : "The Net.Create Team"
-sitelogo: site_logo.jpg
+sitelogo: site_logo.png
 placeholderimg: placeholder.png
 
 # What year did you start up this community project?
@@ -89,26 +89,13 @@ google_g4_analytics_id:
 # You can see these font choices in action at https://digitalarcplatform.kalanicraig.com/docs/
 # Uncomment the line for the font you like. Comment out all of the other lines.
 
-#fontchoice: archivonarrow # A narrow sans-serif font for headlines and body text
-#fontchoice: baloo # A clean sans-serif font with a playful rounded sans-serif accent
-#fontchoice: quattrocento # A modern sans-serif font with classic serif accents
-#fontchoice: raleway # An elegant sans-serif font with bold sans-serif accents
-fontchoice: roboto # A clean sans-serif font with simple serif accents
-#fontchoice: slab # A funky slab font with clean sans-serif accents
-#fontchoice: source # A modern serif font with clean sans-serif accents
+fontchoice: custom
 
 # Choose the COLORS you'd like to use.
 # You can see these color choices in action at https://digitalarcplatform.kalanicraig.com/docs/
 # Uncomment the line for the color you like. Comment out all of the other lines.
 
-#colorchoice: dusk # Dusky purple and olive green
-#colorchoice: lavenderred # Purple-grey with orange-red
-#colorchoice: leafgreen # Leafy green and medium brown
-#colorchoice: marigold # Near-black with marigold yellow
-#colorchoice: navy # Navy with bright teal and grey
-#colorchoice: red # Black, crimson and grey
-#colorchoice: tan # Tan and deep brown with flame-bright orange
-colorchoice: teal # Bright teal with bright orange-yellow accents
+colorchoice: custom
 
 ##############################################
 # ORGANIZING YOUR COLLECTION

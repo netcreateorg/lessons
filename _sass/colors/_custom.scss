@@ -1,0 +1,41 @@
+/** == ORANGE AND TAN Color Palette
+/* CSS HEX */
+/**
+--navy: #004042ff;
+--moonstone: #5eb1bfff;
+--white: #ffffffff;
+--orange-crayola: #ef7a43ff;
+--orange: #d94f30ff;
+
+<!-- Coolors Palette Widget -->
+      <script src="https://coolors.co/palette-widget/widget.js"></script>
+      <script data-id="08317492185861521">new CoolorsPaletteWidget("08317492185861521", ["004042","5eb1bf","eef9fc","ffffff","ef7a43","d94f30"]); </script>
+**/
+
+/* SCSS HEX */
+$navy: #304d72;
+$moonstone: #5eb1bf;
+$white: #ffffff;
+$black: #000000;
+$orange: #f36e40;
+
+/** main color scheme **/
+$main-text-color: $navy;
+$main-bg: $white;
+$main-link: $orange;
+$main-link-hover: darken( $orange, 25% );
+$main-headers: $black;
+
+/** Color scheme for top header bar **/
+$dark-text-color: $navy;
+$dark-bg: $white;
+$dark-link: $orange;
+$dark-link-hover: darken( $orange, 25% );
+$dark-headers: $black;
+
+/** Color scheme for bottom bar **/
+$accent-text-color: $navy;
+$accent-bg: $white;
+$accent-link: $orange;
+$accent-link-hover: darken( $orange, 25% );
+$accent-headers: $black;
