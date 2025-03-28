@@ -3,7 +3,7 @@ layout: item
 title: Allusions
 author: "Net.Create Team"
 type: "Template"
-shortdesc: "Allusions "
+shortdesc: "This template helps students identify unfamiliar allusions in a text and find their original source."
 categories: [ ELA ]
 tags: [  ]
 ---

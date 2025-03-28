@@ -3,7 +3,7 @@ layout: item
 title: Modern Connections to Historical Sources
 author: "Net.Create Team"
 type: "Template"
-shortdesc: "Modern Connections to Historical Sources"
+shortdesc: "This template helps students connect historical 'echoes' to modern cultural, social, architectural, and economic features."
 categories: [ History ]
 tags: [  ]
 ---

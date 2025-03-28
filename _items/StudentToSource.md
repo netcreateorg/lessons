@@ -3,7 +3,7 @@ layout: item
 title: Student Identity in a Source
 author: "Net.Create Team"
 type: "Template"
-shortdesc: "Student Identity in a Source"
+shortdesc: "This helps students connect their own lives to the people, places and events in a source"
 categories: [ History, ELA ]
 tags: [  ]
 ---

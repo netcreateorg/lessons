@@ -3,7 +3,7 @@ layout: item
 title: Fact and Fiction
 author: "Net.Create Team"
 type: "Template"
-shortdesc: "Fact and Fiction"
+shortdesc: "This template helps students identify and differentiate between fact and fiction in the people, places, things and events in a source"
 categories: [ ELA, History ]
 tags: [  ]
 ---
