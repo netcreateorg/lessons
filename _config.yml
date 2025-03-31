@@ -3,7 +3,7 @@
 #---------------------
 # THEME. The following 3 lines don't need to change
 #---------------------
-remote_theme: kalanicraig/digitalarcplatform@v0.9.0-beta.1
+remote_theme: kalanicraig/digitalarcplatform@dev
 repository: 'netcreateorg/lessons' # change this to your repository name
 
 
@@ -59,7 +59,7 @@ sitelogo: site_logo.png
 placeholderimg: placeholder.png
 
 # What year did you start up this community project?
-sitedate : 20218
+sitedate : 2018
 
 # Other community social media. Leave blank if you don't have these.
 email : "netcreateorg [at] gmail.com"
@@ -96,6 +96,8 @@ fontchoice: custom
 # Uncomment the line for the color you like. Comment out all of the other lines.
 
 colorchoice: custom
+
+accentchoice: accent-orange
 
 ##############################################
 # ORGANIZING YOUR COLLECTION

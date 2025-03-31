@@ -12,6 +12,8 @@
       <script data-id="08317492185861521">new CoolorsPaletteWidget("08317492185861521", ["004042","5eb1bf","eef9fc","ffffff","ef7a43","d94f30"]); </script>
 **/
 
+$dark-top-bar: false;
+
 /* SCSS HEX */
 $navy: #304d72;
 $moonstone: #5eb1bf;
@@ -27,8 +29,8 @@ $main-link-hover: darken( $orange, 25% );
 $main-headers: $black;
 
 /** Color scheme for top header bar **/
-$dark-text-color: $navy;
-$dark-bg: $white;
+$dark-text-color: $white;
+$dark-bg: $navy;
 $dark-link: $orange;
 $dark-link-hover: darken( $orange, 25% );
 $dark-headers: $black;
