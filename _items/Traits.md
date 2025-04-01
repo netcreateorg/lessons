@@ -5,7 +5,7 @@ author: "Net.Create Team"
 type: "Template"
 shortdesc: "This network helps students connect common traits in their classroom to character traits in a source."
 categories: [ ELA ]
-tags: [  ]
+tags: [ external references, connecting two sources, student interests ]
 ---
 
 ## When should I use this template?

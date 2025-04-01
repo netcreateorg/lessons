@@ -5,7 +5,7 @@ author: "Net.Create Team"
 type: "Template"
 shortdesc: "This template helps students identify and differentiate between fact and fiction in the people, places, things and events in a source"
 categories: [ ELA, History ]
-tags: [  ]
+tags: [ vetting sources, connecting two sources ]
 ---
 
 ## When should I use this template?
