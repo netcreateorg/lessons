@@ -2,10 +2,10 @@
 layout: item
 title: Modern Connections to Historical Sources
 author: "Net.Create Team"
-type: "Template"
+type: "History"
 shortdesc: "This template helps students connect historical 'echoes' to modern cultural, social, architectural, and economic features."
-categories: [ History ]
-tags: [ external references, vetting sources ]
+categories: [ external references, vetting sources ]
+tags: [  ]
 ---
 
 ## When should I use this template?

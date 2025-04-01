@@ -1,11 +1,11 @@
 ---
 layout: item
-title: Student Identity in a Source
+title: Student Identity in a Fictional Source
 author: "Net.Create Team"
-type: "Template"
+type: "ELA"
 shortdesc: "This helps students connect their own lives to the people, places and events in a source"
-categories: [ History, ELA ]
-tags: [ external references, connecting two sources, student interests ]
+categories: [ external references, connecting two sources, student interests ]
+tags: [  ]
 ---
 
 ## When should I use this template?

@@ -2,10 +2,10 @@
 layout: item
 title: Allusions
 author: "Net.Create Team"
-type: "Template"
+type: "ELA"
 shortdesc: "This template helps students identify unfamiliar allusions in a text and find their original source."
-categories: [ ELA ]
-tags: [ external references, connecting two sources ]
+categories: [ external references, connecting two sources ]
+tags: [  ]
 ---
 
 ## When should I use this template?

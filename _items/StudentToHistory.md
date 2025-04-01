@@ -1,10 +1,10 @@
 ---
 layout: item
-title: Fact and Fiction
+title: Student Identity in a Historical Source
 author: "Net.Create Team"
-type: "ELA"
-shortdesc: "This template helps students identify and differentiate between fact and fiction in the people, places, things and events in a source"
-categories: [ vetting sources, connecting two sources ]
+type: "History"
+shortdesc: "This helps students connect their own lives to the people, places and events in a source"
+categories: [ external references, connecting two sources, student interests ]
 tags: [  ]
 ---
 

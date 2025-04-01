@@ -2,10 +2,10 @@
 layout: item
 title: Student Connections to Character Traits
 author: "Net.Create Team"
-type: "Template"
+type: "ELA"
 shortdesc: "This network helps students connect common traits in their classroom to character traits in a source."
-categories: [ ELA ]
-tags: [ external references, connecting two sources, student interests ]
+categories: [ external references, connecting two sources, student interests ]
+tags: [  ]
 ---
 
 ## When should I use this template?
