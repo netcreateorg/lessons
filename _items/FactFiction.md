@@ -2,7 +2,7 @@
 layout: item
 title: Fact and Fiction
 author: "Net.Create Team"
-type: "ELA"
+format: "ELA"
 shortdesc: "This template helps students identify and differentiate between fact and fiction in the people, places, things and events in a source"
 categories: [ vetting sources, connecting two sources ]
 tags: [  ]

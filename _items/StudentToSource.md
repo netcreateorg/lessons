@@ -2,7 +2,7 @@
 layout: item
 title: Student Identity in a Fictional Source
 author: "Net.Create Team"
-type: "ELA"
+format: "ELA"
 shortdesc: "This helps students connect their own lives to the people, places and events in a source"
 categories: [ external references, connecting two sources, student interests ]
 tags: [  ]

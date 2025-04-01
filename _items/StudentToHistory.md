@@ -2,7 +2,7 @@
 layout: item
 title: Student Identity in a Historical Source
 author: "Net.Create Team"
-type: "History"
+format: "History"
 shortdesc: "This helps students connect their own lives to the people, places and events in a source"
 categories: [ external references, connecting two sources, student interests ]
 tags: [  ]
