@@ -3,17 +3,26 @@ layout: item
 title: Allusions
 author: "Net.Create Team"
 format: "ELA"
-shortdesc: "This template helps students identify unfamiliar allusions in a text and find their original source."
+shortdesc: "Are there allusions in literary works that your students are reading that they aren’t identifying? Do you want to support them to learn more about the allusions that are in works they are reading?"
 categories: [ external references, connecting two sources ]
 tags: [  ]
 ---
 
+Are there allusions in literary works that your students are reading that they aren’t identifying? Do you want to support them to learn more about the allusions that are in works they are reading? The Allusions network template helps students to:
+- identify allusions to and between works they have read
+- to understand how literary works are influenced by each other and are influencing other literary works. 
+
 ## When should I use this template?
 
-- Number of days the lesson could take
 - Descriptions of sources that work with this template
 	- Node and edge types that might appear in the source
 - Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
+
+## What's the investment in time and effort for this network?
+
+- How much time will it take?
+- What will I need to learn as a teacher to effectively support this lesson?
+
 
 ## What learning goals does this template support?
 

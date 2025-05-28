@@ -3,17 +3,28 @@ layout: item
 title: Modern Connections to Historical Sources
 author: "Net.Create Team"
 format: "History"
-shortdesc: "This template helps students connect historical 'echoes' to modern cultural, social, architectural, and economic features."
+shortdesc: "Do you want your students to make connections between historical events and the modern day? Do you want them to see themselves and their community represented in, influenced by, and contrasted against history?"
 categories: [ external references, vetting sources ]
 tags: [  ]
 ---
 
+Do you want your students to make connections between historical events and the modern day? Do you want them to see themselves and their community represented in, influenced by, and contrasted against history? The Past to Present network template supports students in making connections between the historical content that they are learning and things they see, do, and know of in their everyday lives by: 
+- Break through student’s modern perspective by identifying differences between the present and the historical past
+- see connections to people in history by identifying similarities between the present and the historical past
+
+Teachers used this network because students routinely struggled to break through their own modern assumptions to take historical perspective because the cultural and social norms seemed so different.
+
 ## When should I use this template?
 
-- Number of days the lesson could take
 - Descriptions of sources that work with this template
 	- Node and edge types that might appear in the source
 - Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
+
+## What's the investment in time and effort for this network?
+
+- How much time will it take?
+- What will I need to learn as a teacher to effectively support this lesson?
+
 
 ## What learning goals does this template support?
 

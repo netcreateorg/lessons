@@ -3,17 +3,29 @@ layout: item
 title: Student Identity in a Fictional Source
 author: "Net.Create Team"
 format: "ELA"
-shortdesc: "This helps students connect their own lives to the people, places and events in a source"
+shortdesc: "Do you have a complex text with lots of elements--people, places, things, events--that students struggle to keep track of? This network lets students track the many kinds of connections that are possible in complex literary sources."
 categories: [ external references, connecting two sources, student interests ]
 tags: [  ]
 ---
 
+Do you have a complex text with lots of elements--people, places, things, events--that students struggle to keep track of? This network lets students track the many kinds of connections that are possible in complex literary sources. This network facilitates students to: 
+- make connections between elements within a source or topic
+- make connections between elements of a source or topic and themselves
+- make connections with their peers
+
+Teachers who have used this type of network have created purposeful environments where students were able to see how they are engaged by sharing about themselves and connecting to their learning and peers. 
+
 ## When should I use this template?
 
-- Number of days the lesson could take
 - Descriptions of sources that work with this template
 	- Node and edge types that might appear in the source
 - Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
+
+## What's the investment in time and effort for this network?
+
+- How much time will it take?
+- What will I need to learn as a teacher to effectively support this lesson?
+
 
 ## What learning goals does this template support?
 

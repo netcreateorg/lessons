@@ -3,14 +3,20 @@ layout: item
 title: Fact and Fiction
 author: "Net.Create Team"
 format: "ELA"
-shortdesc: "This template helps students identify and differentiate between fact and fiction in the people, places, things and events in a source"
+shortdesc: "Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author? The Fact and Fiction network template supports students reading historical fiction."
 categories: [ vetting sources, connecting two sources ]
 tags: [  ]
 ---
 
+Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author? The Fact and Fiction network template supports students reading historical fiction by: 
+- helping students to determine which elements of plot are factual from history and which are elements of fiction that are added for the sake of the storyline. 
+- examining characters, events, and locations for their potential historical contexts.
+
+Teachers suggested this type of network be created because students routinely struggled to differentiate between fact and fiction and this impacted their reading comprehension, making connections between ELA and history standards, and understanding of historical events. 
+
+
 ## When should I use this template?
 
-- Number of days the lesson could take
 - Descriptions of sources that work with this template
 	- Node and edge types that might appear in the source
 - Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
