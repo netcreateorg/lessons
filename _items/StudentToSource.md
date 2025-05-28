@@ -3,8 +3,8 @@ layout: item
 title: Student Identity in a Fictional Source
 author: "Net.Create Team"
 format: "ELA"
-shortdesc: "Do you have a complex text with lots of elements--people, places, things, events--that students struggle to keep track of? This network lets students track the many kinds of connections that are possible in complex literary sources."
-categories: [ external references, connecting two sources, student interests ]
+shortdesc: "Do you have a complex text with lots of elements--people, places, things, events--that students struggle to keep track of?"
+categories: [ external references, connecting two sources, student interests, text-to-text, text-to-self ]
 tags: [  ]
 ---
 

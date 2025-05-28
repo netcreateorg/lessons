@@ -3,8 +3,8 @@ layout: item
 title: Student Connections to Historical Character Traits
 author: "Net.Create Team"
 format: "History"
-shortdesc: "This network helps students connect common traits in their classroom to character traits in a source."
-categories: [ external references, connecting two sources, student interests ]
+shortdesc: "Do you want students to make deeper connections between themselves and a historical figure, or between historical figures in a reading?"
+categories: [ external references, connecting two sources, student interests, text-to-text, text-to-self ]
 tags: [  ]
 ---
 

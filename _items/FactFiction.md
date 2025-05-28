@@ -3,8 +3,8 @@ layout: item
 title: Fact and Fiction
 author: "Net.Create Team"
 format: "ELA"
-shortdesc: "Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author? The Fact and Fiction network template supports students reading historical fiction."
-categories: [ vetting sources, connecting two sources ]
+shortdesc: "Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author?"
+categories: [ vetting sources, connecting two sources, text-to-text ]
 tags: [  ]
 ---
 

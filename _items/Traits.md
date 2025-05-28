@@ -3,12 +3,12 @@ layout: item
 title: Student Connections to Character Traits
 author: "Net.Create Team"
 format: "ELA"
-shortdesc: "Do you have a source where you want students to make deeper connections between themselves and a character or between characters in texts? The Character vs. Student network template provides the opportunity to make text-to-self and text-to-text connections."
-categories: [ external references, connecting two sources, student interests ]
+shortdesc: "Do you have a source where you want students to make deeper connections between themselves and a character or between characters in texts?"
+categories: [ external references, connecting two sources, student interests, text-to-text, text-to-self ]
 tags: [  ]
 ---
 
-Do you have a source where you want students to make deeper connections between themselves and a character or between characters in texts? The Character vs. Student network template provides the opportunity to make text-to-self and text-to-text connections in the following ways:
+Do you have a source where you want students to make deeper connections between themselves and a character, or between characters in texts? The Character vs. Student network template provides the opportunity to make text-to-self and text-to-text connections in the following ways:
 - make connections between themselves and characters from a novel, short story, or other literary work, specifically focusing on character traits.
 - make connections across literary works. 
 

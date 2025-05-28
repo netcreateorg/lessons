@@ -3,8 +3,8 @@ layout: item
 title: Student Identity in a Historical Source
 author: "Net.Create Team"
 format: "History"
-shortdesc: "Do you have a complex historical source with lots of elements--people, places, things, events--that students struggle to keep track of? This network lets students track the many kinds of connections that are possible in broad history readings."
-categories: [ external references, connecting two sources, student interests ]
+shortdesc: "Do you have a complex historical source with lots of elements--people, places, things, events--that students struggle to keep track of?"
+categories: [ external references, connecting two sources, student interests, text-to-text, text-to-self ]
 tags: [  ]
 ---
 

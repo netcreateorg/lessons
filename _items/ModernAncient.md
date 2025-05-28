@@ -3,8 +3,8 @@ layout: item
 title: Modern Connections to Historical Sources
 author: "Net.Create Team"
 format: "History"
-shortdesc: "Do you want your students to make connections between historical events and the modern day? Do you want them to see themselves and their community represented in, influenced by, and contrasted against history?"
-categories: [ external references, vetting sources ]
+shortdesc: "Do you want your students to see themselves and their community represented in, influenced by, and contrasted against history?"
+categories: [ external references, vetting sources, text-to-self ]
 tags: [  ]
 ---
 
