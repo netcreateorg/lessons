@@ -15,6 +15,11 @@ tags: [  ]
 	- Node and edge types that might appear in the source
 - Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
 
+
+# Have a look at what students have done before with this lesson plan
+
+- What GIFs work best to illustrate this?
+
 ## What learning goals does this template support?
 
 - Disciplinary goals
