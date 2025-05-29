@@ -57,7 +57,12 @@ Data is information that was collected and organized for a reason.
 
 With allusions, we're transforming unstructured data from several sources--the text with allusions, the original allusion, and our knowledge of the audiences who will understand either--into a structure set of connections.
 
-We can then look for patterns in the resulting data that help us understand what sources are most common when working with allusions in literature and who authors think of as common audiences for allusions and what the 
+We can then look for patterns in the resulting data that help us understand:
+- what sources are most common when working with allusions in literature
+- who authors think of as common audiences for allusions
+- which allusions student audiences are likely to need help understanding better
+
+*Note that these pattern-discovery questions are both data-oriented and ELA-oriented.* You'll find that a lot of the ELA lessons you teach have a lot of overlap with data-literacy principles.
 
 ## Resources for classroom use
 
