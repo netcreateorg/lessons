@@ -8,6 +8,8 @@ categories: [ external references, connecting two sources, student interests, te
 tags: [  ]
 ---
 
+# Should I choose this template?
+
 Do you have a complex primary or secondary source with lots of elements--people, places, things, events--that students struggle to keep track of? This network lets students track the many kinds of connections that are possible in complex historical sources. This network facilitates students to: 
 - make connections between elements within a source or topic
 - make connections between elements of a source or topic and themselves
@@ -17,15 +19,37 @@ Teachers who have used this type of network have created purposeful environments
 
 ## When should I use this template?
 
-- Descriptions of sources that work with this template
-	- Node and edge types that might appear in the source
-- Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
+When you have a lesson with a barrage of names, dates, and places, and you want students to find one or two connections that will help them better engage with the readign.
+
+## What sources work best?
+
+- Primary sources or secondary sources that have a lot of historical detail and a lot of interaction
 
 ## What's the investment in time and effort for this network?
 
-- How much time will it take?
-- What will I need to learn as a teacher to effectively support this lesson?
+**Time:** From one class period to many. This activity is especially helpful for integrating several different readings. Used across several sources, the network can help remind students of previous historical events or figures they encountered months or weeks ago.
 
+**Teacher support:** Teachers will need to
+- understand the basics of Net.Create (node and edge entry). [See this basic-data-entry video!](https://netcreate.org)
+- how to toggle between network view and table view and sort columns in table view.
+- how to use one network filter (the "?????" filter). [See this ?????-filter video!](https://netcreate.org)
+
+# How should I use this template?
+
+<table>
+<tr>
+<td markdown=1>[Lesson plan](blah){: .filter-button}
+</td>
+<td markdown=1>[Network Details](blah){: .filter-button}
+</td>
+<td markdown=1>[Teacher resources](blah){: .filter-button}
+</td>
+<td markdown=1>[Student resources](blah){: .filter-button}
+</td>
+</tr>
+</table>
+
+## What should my students and I be tracking?
 
 ## What learning goals does this template support?
 

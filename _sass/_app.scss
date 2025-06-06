@@ -704,7 +704,7 @@ Filter Buttons
     }
 
     .filter-button {
-		border: 2px solid $dark-bg;
+		border: 2px solid $main-text-color;
         border-radius: 5px;
         padding: 4px 12px;
         font-size: 14px;
@@ -751,13 +751,13 @@ Filter Buttons
         display: block;
         width: 1.4em;
         height: 1.4em;
-		border: 2px solid $dark-bg;
+		border: 2px solid $main-text-color;
         border-radius: 6px;
         z-index: -1;
     }
 
     .checkbox-wrapper input[type=checkbox]:hover + label:hover {
-       color: $main-headers;
+       color: $main-link;
     }
 
     .checkbox-wrapper input[type=checkbox]:checked + label {

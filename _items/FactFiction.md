@@ -8,23 +8,48 @@ categories: [ vetting sources, connecting two sources, text-to-text ]
 tags: [  ]
 ---
 
+# Should I choose this template?
+
 Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author? The Fact and Fiction network template supports students reading historical fiction by: 
 - helping students to determine which elements of plot are factual from history and which are elements of fiction that are added for the sake of the storyline. 
 - examining characters, events, and locations for their potential historical contexts.
 
 Teachers suggested this type of network be created because students routinely struggled to differentiate between fact and fiction and this impacted their reading comprehension, making connections between ELA and history standards, and understanding of historical events. 
 
-
 ## When should I use this template?
 
-- Descriptions of sources that work with this template
-	- Node and edge types that might appear in the source
-- Emphasis on vocabulary that describes data literacy and ELA/History as different but is in fact the same thing.
+When they read historical fiction, students can get confused about which story elements (plots, setting, characters) are historical events and which are part of the fictional plot. This network helps them identify the differences.
+
+## What sources work best?
+
+Historical fiction novels, passages, or short stories
+
+## What's the investment in time and effort for this network?
+
+**Time:** This network could be used for one class period **or** on an ongoing basis while reading a novel over the course of a few weeks.
+
+**Teacher support:** Teachers will need to
+- understand the basics of Net.Create (node and edge entry). [See this basic-data-entry video!](https://netcreate.org)
+- how to toggle between network view and table view and sort columns in table view.
+- how to use one network filter (the "?????" filter). [See this ?????-filter video!](https://netcreate.org)
 
 
-# Have a look at what students have done before with this lesson plan
+# How should I use this template?
 
-- What GIFs work best to illustrate this?
+<table>
+<tr>
+<td markdown=1>[Lesson plan](blah){: .filter-button}
+</td>
+<td markdown=1>[Network Details](blah){: .filter-button}
+</td>
+<td markdown=1>[Teacher resources](blah){: .filter-button}
+</td>
+<td markdown=1>[Student resources](blah){: .filter-button}
+</td>
+</tr>
+</table>
+
+## What should my students and I be tracking?
 
 ## What learning goals does this template support?
 
