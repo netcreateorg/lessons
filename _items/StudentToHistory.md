@@ -49,7 +49,7 @@ When you have a lesson with a barrage of names, dates, and places, and you want 
 </tr>
 </table>
 
-## What should my students and I be tracking?
+## Network Details: What should my students and I be tracking?
 
 ## What learning goals does this template support?
 

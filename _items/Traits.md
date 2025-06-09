@@ -41,7 +41,7 @@ This activity is especially helpful for integrating several different readings. 
 </tr>
 </table>
 
-## What should my students and I be tracking?
+## Network Details: What should my students and I be tracking?
 
 #### Nodes (things being connected)
 - Character

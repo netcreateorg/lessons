@@ -49,7 +49,7 @@ Historical fiction novels, passages, or short stories
 </tr>
 </table>
 
-## What should my students and I be tracking?
+## Network Details: What should my students and I be tracking?
 
 ## What learning goals does this template support?
 

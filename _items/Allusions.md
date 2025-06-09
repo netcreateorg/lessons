@@ -51,7 +51,7 @@ Sources that are influenced by something else or have lots of references that st
 </tr>
 </table>
 
-## What should my students and I be tracking?
+## Network Details: What should my students and I be tracking?
 
 #### Nodes (things being connected)
 
