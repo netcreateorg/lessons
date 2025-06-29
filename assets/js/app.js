@@ -25,7 +25,7 @@ function filterItems() {
 		const isPerson = selectedFormats.some(format => itemFormats.includes('person'));
 
 		// WANT TO CHANGE HOW THE FILTERS INTERACT? (I.E. AND vs OR) CHANGE THE LINE BELOW
-		if ((showCat || showForm || showAll)) {
+		if ((showAll || (showCat && showForm))) {
 			card.style.display = "block";
 		} else {
 			card.style.display = "none";
