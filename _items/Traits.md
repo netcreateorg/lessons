@@ -30,13 +30,13 @@ This activity is especially helpful for integrating several different readings. 
 
 <table>
 <tr>
-<td markdown=1>[Lesson plan](blah){: .filter-button}
+<td markdown=1>[Lesson plan](#network-details-what-should-my-students-and-i-be-tracking){: .filter-button}
 </td>
-<td markdown=1>[Network Details](blah){: .filter-button}
+<td markdown=1>[Network Details](#network-details-what-should-my-students-and-i-be-tracking){: .filter-button}
 </td>
-<td markdown=1>[Teacher resources](blah){: .filter-button}
+<td markdown=1>[Teacher resources](#teacher-resources){: .filter-button}
 </td>
-<td markdown=1>[Student resources](blah){: .filter-button}
+<td markdown=1>[Student resources](#student-handouts){: .filter-button}
 </td>
 </tr>
 </table>
