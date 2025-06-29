@@ -20,8 +20,11 @@ function filterItems() {
 
 		const showAll = selectedCategories.length === 0 && selectedFormats.length === 0;
 		const showCat = selectedCategories.some(category => itemCategories.includes(category));
+		if(selectedCategories.length === 0)
+			showCat = true;
 		const showForm = selectedFormats.some(format => itemFormats.includes(format));
-
+		if(selectedFormats.length === 0)
+			showForm = true;
 		const isPerson = selectedFormats.some(format => itemFormats.includes('person'));
 
 		// WANT TO CHANGE HOW THE FILTERS INTERACT? (I.E. AND vs OR) CHANGE THE LINE BELOW
