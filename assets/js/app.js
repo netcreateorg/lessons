@@ -18,16 +18,15 @@ function filterItems() {
 		const itemCategories = card.dataset.categories.split(',');
 		const itemFormats = card.dataset.formats.split(',');
 
+		// we want it to be true and this show the item if either there is no selection in the category / format, or if there is a specific matching selection
+		// nothing selected means we should show all (I think we can remove the show all now, but leaving for moment)
+
 		const showAll = selectedCategories.length === 0 && selectedFormats.length === 0;
-		const showCat = selectedCategories.some(category => itemCategories.includes(category));
-		if(selectedCategories.length === 0)
-			showCat = true;
-		const showForm = selectedFormats.some(format => itemFormats.includes(format));
-		if(selectedFormats.length === 0)
-			showForm = true;
+		const showCat = selectedCategories.length === 0 || selectedCategories.some(category => itemCategories.includes(category));
+
+		const showForm =  selectedFormats.length === 0 || selectedFormats.some(format => itemFormats.includes(format));
 		const isPerson = selectedFormats.some(format => itemFormats.includes('person'));
 
-		// WANT TO CHANGE HOW THE FILTERS INTERACT? (I.E. AND vs OR) CHANGE THE LINE BELOW
 		if ((showAll || (showCat && showForm))) {
 			card.style.display = "block";
 		} else {
