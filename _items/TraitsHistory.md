@@ -77,7 +77,12 @@ In this network, the edges connect historical figures or student experiences to 
 ## What data literacy outcomes does this template support?
 
 - Data is relational, and hierarchical. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data collected from different kinds of historical sources.
+- Data source and history is important for how we interpret it.
 
+This is also a good opportunity to explore:
+
+- Data can be messy. As we create our data, we may disagree, which impacts interpretation. We need to figure out how to resolve and interpret that.
+- Data is not always static. We are changing this data as we discuss our interpretations and revise them.
 
 ## Resources for classroom use
 
