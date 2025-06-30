@@ -70,14 +70,14 @@ In this network, the edges connect historical figures or student experiences to 
 
 ## What learning goals does this template support?
 
-- Disciplinary goals
 - D2.His.5.6-8. Explain how and why perspectives of people have changed over time.
 - D2.His.4.6-8. Analyze multiple factors that influenced the perspectives of people during different historical eras.
 - D2.His.10.6-8. Detect possible limitations in the historical record based on evidence collected from different kinds of historical sources.
 
 ## What data literacy outcomes does this template support?
-- Investigate the source of data and how different data points are arranged within that dataset. Students will choose specific character traits and quotes from primary sources and enter them into a network, allowing them to explore their and their peer's interpretation of historical figures' traits in the context of both the original narrative and the data their peers entered. Creating the network themselves can help them appreciate that all visualizations are created by someone with ideas, interests, and biases.
-- Encounter and work with messy data. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data collected from different kinds of historical sources.
+
+- Data is relational, and hierarchical. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data collected from different kinds of historical sources.
+
 
 ## Resources for classroom use
 
