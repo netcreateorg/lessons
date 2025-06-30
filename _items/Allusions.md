@@ -40,48 +40,47 @@ Sources that are influenced by something else or have lots of references that st
 
 <table>
 <tr>
-<td markdown=1>[Lesson plan](blah){: .filter-button}
+<td markdown=1>[Lesson plan](#network-details-what-should-my-students-and-i-be-tracking){: .filter-button}
 </td>
-<td markdown=1>[Network Details](blah){: .filter-button}
+<td markdown=1>[Network Details](#network-details-what-should-my-students-and-i-be-tracking){: .filter-button}
 </td>
-<td markdown=1>[Teacher resources](blah){: .filter-button}
+<td markdown=1>[Teacher resources](#teacher-resources){: .filter-button}
 </td>
-<td markdown=1>[Student resources](blah){: .filter-button}
+<td markdown=1>[Student resources](#student-handouts){: .filter-button}
 </td>
 </tr>
 </table>
 
 ## Network Details: What should my students and I be tracking?
 
+For any network, students will track nodes (things) and edges (relationships between things), each of which will also have “attributes” (which include mandatory info like citations and optional info like extra notes).
+
 #### Nodes (things being connected)
 
-- **Allusion:** The allusion itself. A quote that has a built in reference to something else. For example, Alyss in The Looking Glass Wars complaining that her name had been spelled wrong, as Alice.
-- **Example:** The reference. If our allusion is Alyss complaining about her misspelling,, then we'd enter "Alice in Alice in Wonderland"
-- **Audience:** The audience who would understand either the Allusion or the Example. One audience for Alice in Wonderland would be "People in 19th-century England"
+In this network, the nodes represent the allusions identified within the work and who those allusions are aimed at. 
+
+- **Allusion:** A quote that has a built-in reference to something else. For example, if we were reading *The Looking Glass Wars* (a 21st-century adaptation of *Alice in Wonderland*), we would enter “Alyss,” the name of the main character..
+- **Example:** The reference. If our allusion is Alyss from The Looking Glass Wars, then we'd enter "Alice in Alice in Wonderland"
+- **Audience:** The audience who would understand either the Allusion or the Example. For example, the audience for Alyss would be “21st-century Young Adults”
 
 #### Edges (connection types)
 
-- **Builds on:** We'd use "Builds On" to connect the Alyss Looking Glass Wars node to the Alice Wonderland node.
-- **Relates to:** We'd use "Relates To" to connect the People in 19th-century England node to the Alice Wonderland node.
+In this network, the edges connect allusions to their original sources and to the audiences for both allusions and original sources.
+
+
+- **Builds on:** We'd use "Builds On" to connect the “Alyss” Looking Glass Wars node to the “Alice Wonderland” node.
+- **Relates to:** We'd use "Relates To" to connect the “People in 19th-century England” node to the “Alice in Wonderland” node to indicate 
 
 ## What learning goals does this template support?
 
 - Disciplinary goals
-- State-standard-aligned goals
-- What kinds of student identity are present?
+- CCSS.ELA-Literacy.RL.8.4: Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone, including analogies or allusions to other texts.
+- CCSS.ELA-Literacy.RL.8.9: Analyze how a modern work of fiction draws on themes, patterns of events, or character types from myths, traditional stories, or religious works such as the Bible, including describing how the material is rendered new.
 
 ## What data literacy outcomes does this template support?
 
-Data is information that was collected and organized for a reason.
-
-With allusions, we're transforming unstructured data from several sources--the text with allusions, the original allusion, and our knowledge of the audiences who will understand either--into a structure set of connections.
-
-We can then look for patterns in the resulting data that help us understand:
-- what sources are most common when working with allusions in literature
-- who authors think of as common audiences for allusions
-- which allusions student audiences are likely to need help understanding better
-
-*Note that these pattern-discovery questions are both data-oriented and ELA-oriented.* You'll find that a lot of the ELA lessons you teach have a lot of overlap with data-literacy principles.
+- Data is interpreted, and we can even create it. Students will choose specific character traits and quotes from primary sources and enter them into a network, allowing them to explore their and their peer's interpretation of historical figures' traits in the context of both the original narrative and the data their peers entered. Creating the network themselves can help them appreciate that all visualizations are created by someone with ideas, interests, and biases.
+- Students will learn to integrate individual data points and aggregate data patterns. Individual data points may inform certain questions, while patterns within and across datasets help answer others.
 
 ## Resources for classroom use
 
@@ -92,7 +91,7 @@ We can then look for patterns in the resulting data that help us understand:
 	- Simple Net.Create documentation
 	- Videos of new node/edge, table sorting, filters, etc.
 	- 5-moves-to-make video
-- 1-pager lesson plan
+- 1-pager lesson plan – Example lesson plan - Alyss Alice Allusions; Student Handout
 	- “Good questions to ask” guide for teachers
 	- What network-data moves (viz, tables, filters) to use as network gets big
 
