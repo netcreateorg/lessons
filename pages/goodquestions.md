@@ -1,7 +1,7 @@
 ---
 title: Good Data Questions
 layout: page
-permalink: /
+permalink: /gooddataquestions
 ---
 
 Data is information that was collected and organized for a reason. When we interpret data we should be mindful that the way the data was collected, organized, and presented can change how we might interpret it. While data is often associated with math and science, it can also be used to make sense of patterns in literature, history, and really any subject!
