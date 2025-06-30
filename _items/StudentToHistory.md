@@ -38,28 +38,49 @@ When you have a lesson with a barrage of names, dates, and places, and you want 
 
 <table>
 <tr>
-<td markdown=1>[Lesson plan](blah){: .filter-button}
+<td markdown=1>[Lesson plan](#network-details-what-should-my-students-and-i-be-tracking){: .filter-button}
 </td>
-<td markdown=1>[Network Details](blah){: .filter-button}
+<td markdown=1>[Network Details](#network-details-what-should-my-students-and-i-be-tracking){: .filter-button}
 </td>
-<td markdown=1>[Teacher resources](blah){: .filter-button}
+<td markdown=1>[Teacher resources](#teacher-resources){: .filter-button}
 </td>
-<td markdown=1>[Student resources](blah){: .filter-button}
+<td markdown=1>[Student resources](#student-handouts){: .filter-button}
 </td>
 </tr>
 </table>
 
 ## Network Details: What should my students and I be tracking?
 
+For any network, students will track nodes (things) and edges (relationships between things), each of which will also have "attributes" (which include mandatory info like citations and optional info like extra notes).
+
+#### Nodes (things being connected)
+
+In this network, the nodes represent people, places, objects, groups, and activities that are part of the text or source students are reading and/or are important to the students in the class. 
+
+- **Person:** A person from the text or a student in the class. For example, when studying a source about Greek mythology, a person node might be Zeus (the Greek god) or Adam (a student in the class). 
+- **Activity:** Something that a person or group of people do. For example, when studying a source about Greek mythology, an activity node might be "a heroic quest".
+- **Object:** A physical thing. For example, when studying a source about Greek mythology, an object node might be "lightning bolt". 
+- **Group:** A group of people. For example, when studying a source about Greek mythology, a group node might be "demigods". 
+- **Place:** A location or significant place. For example, when studying a source about Greek mythology, a place node might be "the underworld". 
+
+#### Edges (connection types)
+
+In this network, the edges show things that are connected. Since the network has both elements of the text or source and elements of real life, nodes from the two should be connected showing relationships between the text or source and the students.
+
+-**interacts with:* You would use "interacts with" to connect two nodes that have some sort of interaction and an explanation of the interaction. This will likely be a connection between two nodes from the text or source.  For example, when studying a source about Greek mythology, there might be an edge showing "Zeus" - "interacts with" - "Hera" with a note saying "Hera is Zeus's wife".
+
+- **Connected to:** You would use "connected to" to connect two nodes that are related and an explanation of the connection. For example, there might be an edge showing "Hades" - "connected to" - "underworld" and an edge showing "Adam" (a student in the class) - "connected to" - "Apollo" with a note saying "I like music". 
+
 ## What learning goals does this template support?
 
-- Disciplinary goals
-- State-standard-aligned goals
-- What kinds of student identity are present?
+- D2.His.5.6-8: Explain how and why perspectives of people have changed over time.
+- D2.His.10.6-8: Detect possible limitations in the historical record based on evidence collected from different kinds of historical sources.
 
 ## What data literacy outcomes does this template support?
 
-- Data literacy outcomes and questions (for the VFOI team)
+- Students will learn that data itself can change over time. While we sometimes consider data "static" in that it will not change, we often change the data itself in use, or through interpretation, or because it describes things that are constantly changing, such as historical norms.
+- Students will learn that data can be messy, and some data is inconsistent and / or has missing information, which is common in the real world
+- Students will learn to integrate individual data points and aggregate data patterns. Individual data points may inform certain questions, while patterns within and across datasets help answer others.
 
 ## Resources for classroom use
 
@@ -71,9 +92,10 @@ When you have a lesson with a barrage of names, dates, and places, and you want 
 	- Videos of new node/edge, table sorting, filters, etc.
 	- 5-moves-to-make video
 - 1-pager lesson plan
-	- “Good questions to ask” guide for teachers
+	- "Good questions to ask" guide for teachers
 	- What network-data moves (viz, tables, filters) to use as network gets big
+Example lesson plan - Greek Myths
 
 ## Student Handouts
 
-- “Good questions to ask” guide for teachers
+- "Good questions to ask" guide for teachers
