@@ -76,8 +76,13 @@ In this network, the edges connect characters or student experiences to traits a
 
 ### What data literacy outcomes does this template support?
 
-- Investigate the source of data and how different data points are arranged within that dataset. Students will choose specific character traits and quotes from the story and enter them into a network, allowing them to explore their and their peer’s interpretation of the characters’ traits in the context of both the original narrative and the data their peers entered. Creating the network themselves can help them appreciate that all visualizations are created by someone with ideas, interests, and biases.
-- Encounter and work with messy data. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data.
+- Data is relational, and hierarchical. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data collected from different kinds of historical sources.
+
+This is also a good opportunity to explore:
+- Data is interpreted, and we can even create it. Students will choose specific character traits and quotes from primary sources and enter them into a network, allowing them to explore their and their peer's interpretation of historical figures' traits in the context of both the original narrative and the data their peers entered. Creating the network themselves can help them appreciate that all visualizations are created by someone with ideas, interests, and biases.
+- Data can be messy. As we create our data, we may disagree, which impacts interpretation. We need to figure out how to resolve and interpret that.
+- Data is not always static. We are changing this data as we discuss our interpretations and revise them.
+
 
 ## Resources for classroom use
 
