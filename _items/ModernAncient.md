@@ -73,9 +73,8 @@ In this network, the edges allow students to make more detailed connections betw
 
 ## What learning goals does this template support?
 
-- Disciplinary goals
-D2.His.2.6-8. Classify series of historical events and developments as examples of change and/or continuity.
-D2.His.3.6-8. Use questions generated about individuals and groups to analyze why they, and the developments they shaped, are seen as historically significant.
+- D2.His.2.6-8. Classify series of historical events and developments as examples of change and/or continuity.
+- D2.His.3.6-8. Use questions generated about individuals and groups to analyze why they, and the developments they shaped, are seen as historically significant.
 
 ## What data literacy outcomes does this template support?
 
