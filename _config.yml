@@ -3,7 +3,7 @@
 #---------------------
 # THEME. The following 3 lines don't need to change
 #---------------------
-remote_theme: kalanicraig/digitalarcplatform@1.0.1
+remote_theme: kalanicraig/digitalarcplatform@v1.0.1
 repository: 'netcreateorg/lessons' # change this to your repository name
 
 
