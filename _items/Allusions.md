@@ -84,13 +84,15 @@ In this network, the edges connect allusions to their original sources and to th
 
 ## Resources for classroom use
 
-### Downloadable Lesson-Plan and Handout Templates and Examples
+### Examples
 
 - Allusions to *Alice in Wonderland* in *Looking Glass Wars*
 	- [Lesson plan #1]({{site.urlresources}}/Allusions_AliceWonderland_LookingGlassWars_LessonOne.docx)
 	- [Lesson plan #2]({{site.urlresources}}/Allusions_AliceWonderland_LookingGlassWars_LessonTwo.docx)
 	- [Teacher slides for lesson plans 1 and 2]({{site.urlresources}}/Allusions_AliceWonderland_LookingGlassWars_TeacherSlides.pdf)
 	- [Student handout for lesson plans 1 and 2]({{site.urlresources}}/Allusions_AliceWonderland_LookingGlassWars_StudentHandout.pdf)
+- Pop Culture Allusions to Shakespeare's *A Midsummer Night's Dream*
+	- [Lesson plan]({{site.urlresources}}/Allusions_MidsummerNIghtsDream_LessonPlan.docx)
 
 ### General Net.Create Tips, Tricks and Documentation
 - [Advice from Experienced Net.Create Middle-School Teachers]({{site.urlresources}}/Classroom_Management_TIps.pptx): Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.
