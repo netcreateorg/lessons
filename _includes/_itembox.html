@@ -1,0 +1,56 @@
+{% capture FileName %}{{ item.url | split: '/' | last }}{% endcapture %}
+{% capture ItemID %}{{ FileName | split: '.' | first }}{% endcapture %}
+
+{% assign catlist = "" | split: ',' %}
+{% if item.categories %}
+{% for cat in item.categories %}
+{% assign catdash = cat | replace: " ", "-" %}
+{% assign catlist = catlist | push: catdash %}
+{% endfor %}
+{% assign uniqueCategories = catlist | uniq %}
+{%endif%}
+
+{% assign formlist = "" | split: ',' %}
+{% if item.format %}
+{% for format in item.format %}
+{% assign formdash = form | replace: " ", "-" %}
+{% assign formlist = formlist | push: formdash %}
+{% endfor %}
+{% assign uniqueFormats = formlist | uniq %}
+{%endif%}
+
+{% assign CurrentPhotoResult = ItemPhotoResult %}
+{% if item.itemphoto %}
+{% assign ItemPhotoResult = item.photo %}
+{% else %}
+{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
+{% for static_file in site.static_files %}
+{% if static_file.path contains ItemImagePath %}
+{% unless static_file.path contains ".md" or static_file.path contains "classroomresources" %}
+{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
+{% endunless %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% if CurrentPhotoResult == ItemPhotoResult %}
+{% capture ItemPhotoResult %}{{site.baseurl}}{{ site.urlimg }}{{site.placeholderimg}}{% endcapture %}
+{% endif %}
+
+	<div role="link" aria-label="{{ item.title }} thumbnail" data-categories="{{ item.categories | join: ',' }}" data-formats="{{ item.format | join: ',' }}" class="cell filter-item small-12 medium-6 large-4 card filter-simple-item {% if item.group%}{{item.group}} {% endif %}{% if uniquetags%}{{ uniquetags | join: " " }}{% endif %}">
+	{% if ItemPhotoResult != empty %}
+	<div class="card-thumbnail">
+		<a href="{{ site.baseurl }}{{ item.url }}" role="link" aria-label="{{ item.title }}">
+		<img class="square thumbnail" src="{{ ItemPhotoResult }}" alt="{{ page.shortdesc }}"></a>
+	</div>
+	{% endif %}
+  <h3 class="card-title accentbg"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+  {%if item.contributor %}<h4 class="card-contributor">{{ item.contributor }}</h4>{% endif %}
+  <p class="card-desc">{{ item.shortdesc | strip_html | truncatewords:30 }} (<a href="{{ site.baseurl }}{{ item.url }}">read more...</a>)</p>
+</div>
+
+<style>
+	.card-desc{
+		text-align: left;
+	}
+</style>
