@@ -4,6 +4,8 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+bundle lock --add-platform ruby
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-seo-tag"

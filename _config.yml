@@ -162,6 +162,7 @@ baseurl: ""
 # Markdown-Example for posts ![Image Text]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}image.jpg)
 #
 urlimg: '/assets/img/'
+urlresources: '/assets/classroomresources/'
 urlitemimg: '/assets/items/'
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
