@@ -84,18 +84,18 @@ In this network, the edges show things that are connected. Since the network has
 
 ## Resources for classroom use
 
-### Teacher Resources
+### Examples
 
-- Classroom management recommendations
-- Network-analysis learning Resources
-	- Simple Net.Create documentation
-	- Videos of new node/edge, table sorting, filters, etc.
-	- 5-moves-to-make video
-- 1-pager lesson plan
-	- "Good questions to ask" guide for teachers
-	- What network-data moves (viz, tables, filters) to use as network gets big
-Example lesson plan - Greek Myths
+- Greek Mythology with D'Aulaires, including student-interest-based connections to Greek mythology characters
+	- [Lesson plan]({{site.urlresources}}/StudentToHistory_GreekMythology_LessonPlan.docx)
 
-## Student Handouts
-
-- "Good questions to ask" guide for teachers
+### General Net.Create Tips, Tricks and Documentation
+- [Advice from Experienced Net.Create Middle-School Teachers]({{site.urlresources}}/Classroom_Management_TIps.pptx): Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.
+- Network-analysis learning resources
+	- [Simple Net.Create documentation](https://netcreate.org/netcreate-userdocs/), which includes:
+		- [Learning basic network terms](https://netcreate.org/netcreate-userdocs/docs/UserGuide/vocab/vocab.html)
+		- [Finding a node](https://netcreate.org/netcreate-userdocs/docs/UserGuide/NodeSearch/nodeSearch.html)
+		- [Adding or editing a node](https://netcreate.org/netcreate-userdocs/docs/UserGuide/nodeCreate/nodeCreate.html)
+		- [Adding or editing an edge](https://netcreate.org/netcreate-userdocs/docs/UserGuide/edgeCreate/edgeCreate.html)
+	- [An Expert Demonstrates Five Starter Steps to Explore a New-To-You Network in Net.Create (video)](https://youtu.be/au0A8By_tdE)
+	- [Good questions to ask your students during a Net.Create lesson]({{site.urlresources}}/Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx)

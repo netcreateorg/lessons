@@ -93,6 +93,7 @@ In this network, the edges connect allusions to their original sources and to th
 	- [Student handout for lesson plans 1 and 2]({{site.urlresources}}/Allusions_AliceWonderland_LookingGlassWars_StudentHandout.pdf)
 - Pop Culture Allusions to Shakespeare's *A Midsummer Night's Dream*
 	- [Lesson plan]({{site.urlresources}}/Allusions_MidsummerNIghtsDream_LessonPlan.docx)
+	- [Student handout]({{site.urlresources}}/Allusions_MidsummerNightsDream_StudentHandout.jpg)
 
 ### General Net.Create Tips, Tricks and Documentation
 - [Advice from Experienced Net.Create Middle-School Teachers]({{site.urlresources}}/Classroom_Management_TIps.pptx): Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.

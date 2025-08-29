@@ -79,26 +79,28 @@ In this network, the edges connect historical figures or student experiences to 
 - Data is relational, and hierarchical. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data collected from different kinds of historical sources.
 - Data source and history is important for how we interpret it.
 
-This is also a good opportunity to explore:
+This is also a good opportunity to explore how:
 
+- Data is relational, and hierarchical. Students will cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text, including identifying internal conflicts in the data collected from different kinds of historical sources.
 - Data can be messy. As we create our data, we may disagree, which impacts interpretation. We need to figure out how to resolve and interpret that.
 - Data is not always static. We are changing this data as we discuss our interpretations and revise them.
 
 ## Resources for classroom use
 
-### Teacher Resources
+### Examples
 
-- Classroom management recommendations
-- Network-analysis learning Resources
-	- Simple Net.Create documentation
-	- Videos of new node/edge, table sorting, filters, etc.
-	- 5-moves-to-make video
-- 1-pager lesson plan
-	- "Good questions to ask" guide for teachers
-	- What network-data moves (viz, tables, filters) to use as network gets big
+- Traits of major world religions
+	- [Lesson plan]({{site.urlresources}}/Traits_WorldReligions_LessonPlan.docx)
 
-## Student Handouts
-
-- "Good questions to ask" guide for teachers
+### General Net.Create Tips, Tricks and Documentation
+- [Advice from Experienced Net.Create Middle-School Teachers]({{site.urlresources}}/Classroom_Management_TIps.pptx): Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.
+- Network-analysis learning resources
+	- [Simple Net.Create documentation](https://netcreate.org/netcreate-userdocs/), which includes:
+		- [Learning basic network terms](https://netcreate.org/netcreate-userdocs/docs/UserGuide/vocab/vocab.html)
+		- [Finding a node](https://netcreate.org/netcreate-userdocs/docs/UserGuide/NodeSearch/nodeSearch.html)
+		- [Adding or editing a node](https://netcreate.org/netcreate-userdocs/docs/UserGuide/nodeCreate/nodeCreate.html)
+		- [Adding or editing an edge](https://netcreate.org/netcreate-userdocs/docs/UserGuide/edgeCreate/edgeCreate.html)
+	- [An Expert Demonstrates Five Starter Steps to Explore a New-To-You Network in Net.Create (video)](https://youtu.be/au0A8By_tdE)
+	- [Good questions to ask your students during a Net.Create lesson]({{site.urlresources}}/Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx)
 
 
