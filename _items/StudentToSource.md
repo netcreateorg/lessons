@@ -26,7 +26,6 @@ When you have a source with a complex list of characters or a complex structure 
 **Teacher support:** Teachers will need to
 - understand the basics of Net.Create (node and edge entry). [See this basic-data-entry video!](https://netcreate.org)
 - how to toggle between network view and table view and sort columns in table view.
-- how to use one network filter (the "?????" filter). [See this ?????-filter video!](https://netcreate.org)
 
 # How should I use this template?
 
