@@ -93,12 +93,24 @@ This is also a good opportunity to explore:
 	- [Lesson plan]({{site.urlresources}}/FactFiction_BookThief_LessonPlan.docx)
 
 ### General Net.Create Tips, Tricks and Documentation
-- [Advice from Experienced Net.Create Middle-School Teachers]({{site.urlresources}}/Classroom_Management_TIps.pptx): Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.
-- Network-analysis learning resources
+
+#### Quick Tips
+
+- **Citations matter!** The ***Provenance*** tab can help your students find and vet evidence.
+- **Your comments can guide students.** Use the ***comment*** feature to call student attention to specific 
+
+#### Downloadable Resources
+
+- [Network-analysis teaching slide deck with terms and visual guides]({{site.urlresources}}/NetworkAnalysisTeachingSlideDeck.pptx)
+- [Good questions to ask your students during a Net.Create lesson]({{site.urlresources}}/Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx)
+
+#### Documentation and Advice
+
+- [Advice from Experienced Net.Create Middle-School Teachers]({{site.urlresources}}/Classroom_Management_Tips.pptx): Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.
+- Network-analysis training
 	- [Simple Net.Create documentation](https://netcreate.org/netcreate-userdocs/), which includes:
 		- [Learning basic network terms](https://netcreate.org/netcreate-userdocs/docs/UserGuide/vocab/vocab.html)
 		- [Finding a node](https://netcreate.org/netcreate-userdocs/docs/UserGuide/NodeSearch/nodeSearch.html)
 		- [Adding or editing a node](https://netcreate.org/netcreate-userdocs/docs/UserGuide/nodeCreate/nodeCreate.html)
 		- [Adding or editing an edge](https://netcreate.org/netcreate-userdocs/docs/UserGuide/edgeCreate/edgeCreate.html)
 	- [An Expert Demonstrates Five Starter Steps to Explore a New-To-You Network in Net.Create (video)](https://youtu.be/au0A8By_tdE)
-	- [Good questions to ask your students during a Net.Create lesson]({{site.urlresources}}/Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx)
