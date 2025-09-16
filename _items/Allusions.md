@@ -6,7 +6,7 @@ format: "ELA"
 shortdesc: "Do you want your students to see how one literary work is influenced by another?"
 networktemplate:
   shortname: "ExampleELAAllusions"
-  title: "A sample network with data from Alice in Wonderland"
+  title: "A sample network with data from *Alice in Wonderland*"
 categories:
   - "external references"
   - "connecting two sources"

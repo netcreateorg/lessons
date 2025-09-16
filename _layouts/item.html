@@ -30,26 +30,31 @@ format: item
 
 		<div class="cell medium-6 large-8 float-left">
 
-{{ page.shouldiuse['text'] | markdownify }}
+<p><strong>Use when you want students to:</strong> {% for point in page.shouldiuse['points'] %}{{ point }}{% if forloop.last != true %}; {% endif %} {% endfor %}</p>
 
-<ul>
-{% for point in page.shouldiuse['points'] %}<li>{{ point }}</li>{% endfor %}
-</ul>
+<p><strong>Meets {{page.format}} standards:</strong> {% for learningoutcome in page.datalearningoutcomes %}{{ learningoutcome.outcome }}; {% endfor %}
 
-<p><strong>SUCCESS STORIES:</strong> {{ page.shouldiuse['success']}}
-
-<p><strong>TEXTS THAT WORK:</strong> {{ page.shouldiuse['bestsources']}}
+<p><strong>Disciplinary data literacy skills:</strong>  {% for learningoutcome in page.disciplinarylearningoutcomes %}{{ learningoutcome.outcome }}; {% endfor %}
 
 		</div>
 	</div>
 	<div class="grid-x grid-padding-x">
 		<div class="large-12 cell" markdown=1>
 
+<h2>About this network</h2>
+
+{{ page.shouldiuse['text'] | markdownify }}
+
+<p><strong>SUCCESS STORIES:</strong> {{ page.shouldiuse['success']}}
+
+<p><strong>TEXTS THAT WORK:</strong> {{ page.shouldiuse['bestsources']}}
+
+
 <h2>Play with a sample network</h2>
 
 <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true" role="tablist">
   <li class="accordion-item" data-accordion-item role="tab" aria-controls="{{ page.networktemplate.title }}">
-    <a href="#" class="accordion-title">{{ page.networktemplate.title }}</a>
+    <a href="#" class="accordion-title">{{ page.networktemplate.title | markdownify }}</a>
     <div class="accordion-content" data-tab-content role="tabpanel" aria-labelledby="network">
     <p>Explore the network by dragging nodes around, looking at the details for a few nodes and edges, and opening up the Nodes and Edges tables.
       <iframe
@@ -57,7 +62,7 @@ format: item
         width="100%"
         height="750"
         title="Net.Create ELA Character Traits Network"
-        src="http://samplenetworks2025.kalanicraig.com/?dataset={{ page.networktemplate.shortname }}#/">
+        src="https://samplenetworks2025.kalanicraig.com/?dataset={{ page.networktemplate.shortname }}#/">
       </iframe>
     </div>
   </li>

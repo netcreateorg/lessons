@@ -5,7 +5,7 @@ author: "Net.Create Team"
 format: "ELA"
 networktemplate:
   shortname: ExampleELACharacterTraits
-  title: "A sample network with data from As Brave As You"
+  title: "A sample network with data from *As Brave As You*"
 shortdesc: "Do you have a source where you want students to make deeper connections between themselves and a character or between characters in texts?"
 categories: 
   - external references
