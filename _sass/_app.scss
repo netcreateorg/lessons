@@ -100,6 +100,11 @@ Base settings
 		padding-bottom: .5em;
 	}
 
+	.callout{
+	  background-color: lighten( $main-link, 30% );
+	  border: 0 0 0 0;
+	}
+
 	@media screen and (min-width: 40em) {
 	  h1, .h1 {
 		font-size: 2.25rem; }
@@ -443,6 +448,38 @@ Typographic & Design Elements
 		color: $dark-text-color;
 	}
 
+table.hover thead tr:hover {
+  background-color: lighten($main-link, 35%);
+  color:$main-text-color;
+}
+
+table.hover tfoot tr:hover {
+  background-color: lighten($main-link, 35%) }
+
+table.hover tbody tr:hover {
+  background-color: lighten($main-link, 35%) }
+
+table.hover:not(.unstriped) tr:nth-of-type(even):hover {
+  background-color: lighten($main-link, 35%) }
+
+.tabledivider {
+  background-color: darken($main-link, 15%);
+  color: $white;
+}
+
+	@media screen and (min-width: 63em) {
+		.learningoutcomes {
+			width: 25%;
+		}
+	}
+	@media screen and (max-width: 39.9775em) {
+		.learningoutcomes {
+			width: 100%;
+		}
+	}
+
+
+
 .item-quote {
   font-weight: 400;
   letter-spacing: 1.25px;
@@ -492,6 +529,19 @@ Typographic & Design Elements
 }
 
 
+/** =================================
+Accordions
+================================= **/
+
+.accordion-title {
+  font-size: 1rem;
+  font-family: $headline-font;
+  color: $main-headers;
+}
+
+.accordion-title:hover, .accordion-title:focus {
+  background-color: lighten( $main-link, 30% );
+}
 /** =================================
 ItemBox
 ================================= **/

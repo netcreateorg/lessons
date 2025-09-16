@@ -164,6 +164,7 @@ baseurl: ""
 urlimg: '/assets/img/'
 urlresources: '/assets/classroomresources/'
 urlitemimg: '/assets/items/'
+urlitemgraph: '/assets/graphsonly/'
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 markdown : kramdown

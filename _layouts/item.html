@@ -2,141 +2,189 @@
 layout: page
 format: item
 ---
-{% capture FileName %}{{ page.url | split: '/' | last }}{% endcapture %}
-{% capture ItemID %}{{ FileName | split: '.' | first }}{% endcapture %}
 
 <div class="grid-container">
 	<div class="grid-x grid-padding-x">
-<div class="cell small-12 medium-6 large-4 card">
-	<div class="card-thumbnail float-left">
-
-{% if page.embedurl %}
-	{% if page.embedurl contains "youtu.be" %}
-		{% assign embedsplit = page.embedurl | split: "?" %}
-		{% assign embedarray = embedsplit[0] | split: "/" %}
-		{% assign embedcode = embedarray[3] %}
-	{% elsif page.embedurl contains "youtube.com" %}
-		{% assign embedarray = page.embedurl | split: "=" %}
-		{% assign embedcode = embedarray[1] %}
-	{% endif %}
-	{% if embedcode.size > 0 %}
-	<video controls class="responsive-embed">
-	  <iframe width="350" height="350" src="https://www.youtube.com/embed/{{ embedcode }}" frameborder="0" allowfullscreen></iframe>
-	</video>
-	{% endif %}
-{% else %}
-	{% if item.photo %}
-		{% assign ItemPhotoResult = item.photo %}
-	{% else %}
-		{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
-		{% for static_file in site.static_files %}
-			{% if static_file.path contains '/assets/items/' and static_file.path contains ItemImagePath %}
-				{% unless static_file.path contains ".md" %}
-					{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
-					{% endunless %}
-				{% break %}
+		<div class="cell small-12 medium-6 large-4 card">
+			<div class="card-thumbnail float-right">
+		
+			{% if item.photo %}
+				{% assign ItemPhotoResult = item.photo %}
+			{% else %}
+				{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
+				{% for static_file in site.static_files %}
+					{% if static_file.path contains '/assets/items/' and static_file.path contains ItemImagePath %}
+						{% unless static_file.path contains ".md" %}
+							{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
+							{% endunless %}
+						{% break %}
+					{% endif %}
+				{% endfor %}
 			{% endif %}
-		{% endfor %}
-	{% endif %}
+		
+		{% if ItemPhotoResult.size > 0 %}
+				<img src="{{ ItemPhotoResult }}" alt="{{ page.shortdesc }}">
+		{% endif %}
+			</div>
+		</div>
 
-{% if ItemPhotoResult.size > 0 %}
-		<img class="square thumbnail" src="{{ ItemPhotoResult }}" alt="{{ page.shortdesc }}">
-{% endif %}
+		<div class="cell medium-6 large-8 float-left">
 
-{% capture ItemTranscript %}{{ ItemID }}_Transcript{% endcapture %}
-{% for static_file in site.static_files %}
-	{% if static_file.path contains ItemTranscript %}
-		{% capture ItemTranscriptResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
-	{% endif %}
-{% endfor %}
-{% endif %}
+{{ page.shouldiuse['text'] | markdownify }}
 
-{% capture ItemOralHistory %}{{ ItemID }}.mp3{% endcapture %}
-{% for static_file in site.static_files %}
-	{% if static_file.path contains ItemOralHistory %}
-		{% capture ItemOralHistoryResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
-	{% endif %}
-{% endfor %}
+<ul>
+{% for point in page.shouldiuse['points'] %}<li>{{ point }}</li>{% endfor %}
+</ul>
 
-{% if ItemOralHistoryResult %}
-<figure role="figure" aria-label="Interview Audio Player">
-  <figcaption>Listen to the story</figcaption>
-  <audio controls src="{{ItemOralHistoryResult}}"></audio>
-  <p><a href="{{ItemOralHistoryResult}}" role="link" aria-label="Item Interview Audio Download"> Download audio</a>{% if ItemTranscriptResult %} | 
-<a href="{{ItemTranscriptResult}}" role="link" aria-label="Item Interview Transcript Download">Download transcript</a>
-{% endif %}
+<p><strong>SUCCESS STORIES:</strong> {{ page.shouldiuse['success']}}
 
-</figure>
-{% endif %}
-</div>
-</div>
-<div class="cell medium-6 large-8">
+<p><strong>TEXTS THAT WORK:</strong> {{ page.shouldiuse['bestsources']}}
 
-{% if page.contributor.size > 0 %}<h2>Object contributed by {{ page.contributor }}</h2>{% endif %}
-
-{% if page.contributorquote.size > 0  %}<q class="item-quote">"{{ page.contributorquote }}"</q>{% endif %}
-
-{% if page.creator.size > 0  %}<h4>Originally created by {{ page.creator }}</h4>{% endif %}
-
-{% if page.externalurl.size > 0  %}<p>Find out more at {{ page.externalurl }}{% endif %}
-
-{% if page.teammember.size > 0  %}<p>Assistance collecting this object by {{ page.teammember }}</p>{% endif %}
-
-</div>
-</div>
-</div>
-</div>
-<div class="grid-container">
+		</div>
+	</div>
 	<div class="grid-x grid-padding-x">
-		<div class="large-12 cell">
-			<!--page-->
-{{ content }}
+		<div class="large-12 cell" markdown=1>
 
+<h2>Play with a sample network</h2>
 
-
-{% capture ItemImagePath %}{{ urlitemimg }}{{ ItemID }}{% endcapture %}
-{% for static_file in site.static_files %}
-{% if static_file.path contains '/assets/items/' and static_file.path contains ItemImagePath %}{% unless static_file.path contains 'transcript' %}
-{% capture ItemPhotoResult %}{{site.baseurl}}{{static_file.path}}{% endcapture %}
-<img class="featured-image img-fluid object-photo" src="{{ ItemPhotoResult }}" alt="{{ page.title }}">
-{% endunless %}
-{% endif %}
-{% endfor %}
-
-{% capture ItemTranscriptMD %}{{ ItemID }}.md{% endcapture %}
-{% for static_file in site.static_files %}
-	{% if static_file.path contains ItemTranscriptMD %}
-		include {{site.baseurl}}{{static_file.path}}
-	{% endif %}
-{% endfor %}
-
-{% assign dc-base = "dublin-core-" %}
-<div class="element-set">
-<h2 id="Dublin Core">More about this item</h2>
-<p class="quiet">Dublin Core</p>
-<table class="stack">
-	{% for var in page %}
-	{% if page[var] != "" and page[var] %}
-		{% for key in site.data.metadata.fields %}
-			{% if key[0] == var and key[1] %}
-				{% capture dc-type %} {{ dc-base }}{{ key[0] }} {% endcapture %}
-				{% if page[var].first %}
-					{% assign varvalue = page[var] | uniq | join: ", " %}
-				{% else %}
-					{% assign varvalue = page[var] %}
-				{% endif %}
-				<tr>
-					<td><div id="{{ dc-type }}" class="element">{{ key[1] }}</div></td>
-					<td><div class="element-text">{{ varvalue }}</div></td>
-				</tr>
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-{% endfor %}		
-</table>
-
-<!-- {: .my-class } -->  
+<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true" role="tablist">
+  <li class="accordion-item" data-accordion-item role="tab" aria-controls="{{ page.networktemplate.title }}">
+    <a href="#" class="accordion-title">{{ page.networktemplate.title }}</a>
+    <div class="accordion-content" data-tab-content role="tabpanel" aria-labelledby="network">
+    <p>Explore the network by dragging nodes around, looking at the details for a few nodes and edges, and opening up the Nodes and Edges tables.
+      <iframe
+        id="ncFrame"
+        width="100%"
+        height="750"
+        title="Net.Create ELA Character Traits Network"
+        src="http://samplenetworks2025.kalanicraig.com/?dataset={{ page.networktemplate.shortname }}#/">
+      </iframe>
+    </div>
+  </li>
+</ul>
 
 		</div>
 	</div>
 </div>
+		</div>
+	</div>
+</div>
+<!--break out of page.html divs-->
+
+
+
+<div class="callout" width="100%">
+<div class="grid-container">
+
+<h2 id="how-should-i-use-this-in-my-classroom">How should I use this in my classroom?</h2>
+
+</div>
+</div>
+
+<div class="grid-container" style="margin-bottom: 1rem;">
+	<div class="grid-x grid-padding-x">
+		<div class="large-12 cell">
+
+<h3 id="network-details-what-should-my-students-and-i-be-tracking">Network Details: What should my students and I be tracking?</h3>
+
+<p>For any network, students will track nodes (things) and edges (relationships between things), each of which will also have "attributes" (which include mandatory info like citations and optional info like extra notes).
+
+		</div>
+	</div>
+	<div class="grid-x grid-padding-x align-top">
+		<div class="cell medium-6 align-left" markdown=1>
+
+<h4>Nodes (things being connected)</h4>
+
+{{page.nodetypeintro | markdownify }}
+
+
+<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+{% for node in page.nodetypes %}
+<li class="accordion-item" data-accordion-item>
+<a href="#" class="accordion-title">{{ node.title }}</a>
+<div class="accordion-content" data-tab-content >{{ node.description }}</p></div>
+</li>
+{% endfor %}
+</ul>
+</div>
+		<div class="cell medium-6 align-left" markdown=1>
+
+
+<h4>Edges (connection types)</h4>
+
+{{page.edgetypeintro | markdownify }}
+
+
+<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true" role="tablist">
+{% for edge in page.edgetypes %}
+<li class="accordion-item" data-accordion-item role="tab"  aria-controls="edge-title-{{ edge.title }}">
+<a href="#" class="accordion-title">{{ edge.title }}</a>
+<div class="accordion-content" data-tab-content  role="tabpanel" aria-labelledby="edge-title-{{ edge.title }}">{{ edge.description }}</p></div>
+</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+
+	<div class="grid-x grid-padding-x">
+		<div class="large-12 cell">
+
+<h2 id="what-learning-goals-does-this-template-support">What learning goals does this template support?</h2>
+<table class="stack hover unstriped">
+<tr><th colspan=2 class="tabledivider">Disciplinary Standards</th></tr>
+{% for learningoutcome in page.disciplinarylearningoutcomes %}
+<tr><th class="learningoutcomes">{{ learningoutcome.outcome }}</td><td>{{ learningoutcome.description }}</td></tr>
+{% endfor %}
+<tr><th colspan=2 class="tabledivider">Disciplinary Data Literacy Goals</th></tr>
+{% for learningoutcome in page.datalearningoutcomes %}
+<tr><th class="learningoutcomes">{{ learningoutcome.outcome }}</td><td>{{ learningoutcome.description }}</td></tr>
+{% endfor %}
+</table>
+
+<h3 id="general-netcreate-tips-tricks-and-documentation">Lesson-Specific Resources and Examples</h3>
+
+{% for example in page.examples %}
+<strong>{{ example.lesson | markdownify }}</strong>
+    <ul>
+    {% for resource in example.resources %}
+      <li><a href="{{ resource.link }}">{{ resource.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+<p><strong>How to integrate this lesson into your classroom:</strong> {{ page.time }}
+
+<h3 id="general-netcreate-tips-tricks-and-documentation">General Net.Create Tips, Tricks and Documentation</h3>
+
+<h4 id="quick-tips">Quick Tips</h4>
+<table class="stack hover unstriped">
+<tr><th class="learningoutcomes">Citations matter!</td><td>The <strong><em>Provenance</em></strong> tab can help your students find and vet evidence.</td></tr>
+<tr><th class="learningoutcomes">Your comments can guide students.</td><td>Use the <strong><em>comment</em></strong> feature to call student attention to specific actions they can take to understand the content and data-literacy learning you're doing</td></tr>
+<tr><th class="learningoutcomes">Break data entry and analysis into two lessons</td><td>Node-and-edge entry on day one can give you time to focus on student reading comprehension. A second lesson using node/edge gravity, tables and the "Analysis" tab can help with content analysis and data-literacy learning. <em>Check out the “Why Use Networks” slide in the slide deck in Downloadable Resources section below.</em></td></tr>
+<tr><th class="learningoutcomes">Treat mistakes as valuable data-literacy and content-learning moves.</td><td>If you see nodes or edges that don’t help with your lesson, point them out and help students find a way to revise them to address the lesson plan.</em></td></tr>
+<tr><th class="learningoutcomes">Remember that data are about individual people.</td><td>Chat with your students about how to be respectful of their peers as they enter network data.</em></td></tr>
+</table>
+
+<h4 id="downloadable-resources">Downloadable Resources</h4>
+<ul>
+  <li><a href="/assets/classroomresources//NetworkAnalysisTeachingSlideDeck.pptx">Network-analysis teaching slides with terms, visual guides, and a "why networks" slide</a></li>
+  <li><a href="/assets/classroomresources//Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx">Good questions to ask your students during a Net.Create lesson</a></li>
+  <li><a href="/assets/classroomresources/Classroom_Management_Tips.pptx">Advice from Experienced Net.Create Middle-School Teachers</a>: Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.</li>
+</ul>
+<h4 id="documentation-and-advice">Net.Create User Guide</h4>
+<ul>
+	<li><a href="https://netcreate.org/netcreate-userdocs/">Simple Net.Create documentation</a>, which includes:
+	  <ul>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/vocab/vocab.html">Learning basic network terms</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/NodeSearch/nodeSearch.html">Finding a node</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/nodeCreate/nodeCreate.html">Adding or editing a node</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/edgeCreate/edgeCreate.html">Adding or editing an edge</a></li>
+	  </ul>
+	</li>
+	<li>
+	  <p><a href="https://youtu.be/au0A8By_tdE">An Expert Demonstrates Five Starter Steps to Explore a New-To-You Network in Net.Create (video)</a></p>
+
+	</li>
+ </ul>
+
