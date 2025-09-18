@@ -4,8 +4,8 @@ title: "Student Identity in a Historical Source"
 author: "Net.Create Team"
 format: "History"
 networktemplate:
-  shortname: "ExampleELACharacterTraits"
-  title: "A sample network with data from *As Brave As You*"
+  shortname: "ExampleHistoryStudentToHistory"
+  title: "A sample network with data from D'Aulaires *Greek Mythology*"
 shortdesc: "Do you have a complex historical source with lots of elements--people, places, things, events--that students struggle to keep track of?"
 categories:
   - "external references"
