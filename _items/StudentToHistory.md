@@ -4,7 +4,7 @@ title: "Student Identity in a Historical Source"
 author: "Net.Create Team"
 format: "History"
 networktemplate:
-  shortname: "ExampleHistoryStudentToHistory"
+  shortname: "ExampleHistoryIdentityMythology"
   title: "A sample network with data from D'Aulaires *Greek Mythology*"
 shortdesc: "Do you have a complex historical source with lots of elements--people, places, things, events--that students struggle to keep track of?"
 categories:
@@ -15,7 +15,7 @@ categories:
   - "text-to-self"
 shouldiuse:
   text: |
-    **Do you have a complex primary or secondary source with lots of elements--people, places, things, events--that students struggle to keep track of?** When you have a lesson with a barrage of names, dates, and places, and you want students to find one or two connections that will help them better engage with the reading. This network lets students track the many kinds of connections that are possible in complex historical sources and facilitates students to:
+    **Do you have a complex primary or secondary source with lots of elements--people, places, things, events--that students struggle to keep track of?** When you have a lesson with a barrage of names, dates, and places, and you want students to find one or two connections that will help them better engage with the reading. This network lets students track the many kinds of connections that are possible in complex historical sources.
   points:
     - "make connections between elements within a source or topic"
     - "make connections between elements of a source or topic and themselves"

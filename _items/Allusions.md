@@ -5,15 +5,15 @@ author: "Net.Create Team"
 format: "ELA"
 shortdesc: "Do you want your students to see how one literary work is influenced by another?"
 networktemplate:
-  shortname: "ExampleELAAllusions"
-  title: "A sample network with data from *Alice in Wonderland*"
+  shortname: "ConsentedELAAllusions"
+  title: "A sample network with data from varied student readings"
 categories:
   - "external references"
   - "connecting two sources"
   - "text-to-text"
 shouldiuse:
   text: |
-    Allusions are everywhere, from sports broadcasts to remakes. But not all students have the right set of references to find or understand the allusions in the sources they're working with. Are there allusions in literary works that your students are reading that they struggle to identify? Do you want to support them as they learn more about both familiar and unfamiliar allusions in their reading? The Allusions network template helps students to:
+    Allusions are everywhere, from sports broadcasts to remakes. But not all students have the right set of references to find or understand the allusions in the sources they're working with. Are there allusions in literary works that your students are reading that they struggle to identify? This network template supports students as they learn more about both familiar and unfamiliar allusions.
   points:
     - "make connections between themselves and characters from a novel, short story, or other literary work, specifically focusing on character traits."
     - "make connections across literary works."

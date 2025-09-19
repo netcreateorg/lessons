@@ -13,7 +13,7 @@ categories:
   - "text-to-text"
 shouldiuse:
   text: |
-    Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author? When they read historical fiction, students can get confused about which story elements (plots, setting, characters) are historical events and which are part of the fictional plot. The Fact and Fiction network template supports students reading historical fiction by:
+    Are your students struggling to differentiate which parts of historical fiction are real and which were created by the author? When they read historical fiction, students can get confused about which story elements (plots, setting, characters) are historical events and which are part of the fictional plot. The Fact and Fiction network template supports students as they clarify which elements of a text rely on fact, fictional narrative, or both.
   points:
     - "helping students to determine which elements of plot are factual from history and which are elements of fiction that are added for the sake of the storyline."
     - "examining characters, events, and locations for their potential historical contexts."

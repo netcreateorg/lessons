@@ -5,7 +5,7 @@ author: "Net.Create Team"
 format: "History"
 shortdesc: "Do you want your students to see themselves and their community represented in, influenced by, and contrasted against history?"
 networktemplate:
-  shortname: "ExampleHistoryModernAncient"
+  shortname: "ConsentedHistoryModernConnections"
   title: "A sample network with data that links Ancient Rome and the Modern US through culture and architecture"
 categories:
   - "external references"
@@ -13,7 +13,7 @@ categories:
   - "text-to-self"
 shouldiuse:
   text: |
-    Do you want your students to make connections between historical events and the modern day? Do you want them to see themselves and their community represented in, influenced by, and contrasted against history? Use this when you have content from history that has impact on modern life (or on another era in history). The Past to Present network template supports students in making connections between the historical content that they are learning and things they see, do, and know of in their everyday lives by:
+    Do you want your students to make connections between historical events and the modern day? Do you want them to see themselves and their community represented in, influenced by, and contrasted against history? Use this when you have content from history that has impact on modern life (or on another era in history). The Past to Present network template supports students in making connections between the historical content that they are learning and things they see, do, and know of in their everyday lives.
   points:
     - "Break through students' modern perspective by identifying differences between the present and the historical past."
     - "See connections to people in history by identifying similarities between the present and the historical past."

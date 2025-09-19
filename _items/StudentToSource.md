@@ -15,7 +15,7 @@ categories:
   - "text-to-self"
 shouldiuse:
   text: |
-    Do you have a complex text with lots of elements--people, places, things, events--that students struggle to keep track of? This network can help students find one or two connections that will help them better engage with complex readings and facilitates students to:
+    Do you have a complex text with lots of elements--people, places, things, events--that students struggle to keep track of? This network can help students find one or two connections that will help them better engage with complex readings.
   points:
     - "make connections between elements within a source or topic"
     - "make connections between elements of a source or topic and themselves"

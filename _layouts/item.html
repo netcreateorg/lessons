@@ -30,11 +30,11 @@ format: item
 
 		<div class="cell medium-6 large-8 float-left">
 
-<p><strong>Use when you want students to:</strong> {% for point in page.shouldiuse['points'] %}{{ point }}{% if forloop.last != true %}; {% endif %} {% endfor %}</p>
+<p><strong>Use when you want students to:</strong> <ul>{% for point in page.shouldiuse['points'] %}<li>{{ point }}{% endfor %}</ul>
 
-<p><strong>Meets {{page.format}} standards:</strong> {% for learningoutcome in page.datalearningoutcomes %}{{ learningoutcome.outcome }}; {% endfor %}
+<p><strong><a href="#what-learning-goals-does-this-template-support">Meets {{page.format}} standards:</a></strong><ul> {% for learningoutcome in page.disciplinarylearningoutcomes %}<li>{{ learningoutcome.outcome }}{% endfor %}</ul>
 
-<p><strong>Disciplinary data literacy skills:</strong>  {% for learningoutcome in page.disciplinarylearningoutcomes %}{{ learningoutcome.outcome }}; {% endfor %}
+<p><strong>Disciplinary data literacy skills:</strong><ul>{% for learningoutcome in page.datalearningoutcomes %}<li>{{ learningoutcome.outcome }}{% endfor %}</ul>
 
 		</div>
 	</div>
@@ -149,11 +149,13 @@ format: item
 
 <h3 id="general-netcreate-tips-tricks-and-documentation">Lesson-Specific Resources and Examples</h3>
 
+<p><em>The following files are in PowerPoint .PPTX and Word .DOCX format. If you use Google Docs, you should be able to import these into Google Slides and Google Docs with minimal formatting changes.</em></p>
+
 {% for example in page.examples %}
 <strong>{{ example.lesson | markdownify }}</strong>
     <ul>
     {% for resource in example.resources %}
-      <li><a href="{{ resource.link }}">{{ resource.title }}</a></li>
+      <li><a href="{{ site.urlresources }}{{ resource.link }}" target="_blank">{{ resource.title }}</a></li>
     {% endfor %}
     </ul>
 {% endfor %}
@@ -173,22 +175,22 @@ format: item
 
 <h4 id="downloadable-resources">Downloadable Resources</h4>
 <ul>
-  <li><a href="/assets/classroomresources//NetworkAnalysisTeachingSlideDeck.pptx">Network-analysis teaching slides with terms, visual guides, and a "why networks" slide</a></li>
-  <li><a href="/assets/classroomresources//Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx">Good questions to ask your students during a Net.Create lesson</a></li>
-  <li><a href="/assets/classroomresources/Classroom_Management_Tips.pptx">Advice from Experienced Net.Create Middle-School Teachers</a>: Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.</li>
+  <li><a href="/assets/classroomresources/NetworkAnalysisTeachingSlideDeck.pptx" target="_blank">Network-analysis teaching slides with terms, visual guides, and a "why networks" slide</a></li>
+  <li><a href="/assets/classroomresources/Good_Disciplinary-Data-Literacy_Questions_To_Ask.pptx" target="_blank">Good questions to ask your students during a Net.Create lesson</a></li>
+  <li><a href="/assets/classroomresources/Classroom_Management_Tips.pptx" target="_blank">Advice from Experienced Net.Create Middle-School Teachers</a>: Our partner teachers who have used Net.Create extensively in their own middle-school classrooms prepped a short set of recommendations for getting comfortable with Net.Create, prepping effective lessons and handling common classroom-management needs.</li>
 </ul>
 <h4 id="documentation-and-advice">Net.Create User Guide</h4>
 <ul>
-	<li><a href="https://netcreate.org/netcreate-userdocs/">Simple Net.Create documentation</a>, which includes:
+	<li><a href="https://netcreate.org/netcreate-userdocs/" target="_blank">Simple Net.Create documentation</a>, which includes:
 	  <ul>
-		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/vocab/vocab.html">Learning basic network terms</a></li>
-		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/NodeSearch/nodeSearch.html">Finding a node</a></li>
-		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/nodeCreate/nodeCreate.html">Adding or editing a node</a></li>
-		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/edgeCreate/edgeCreate.html">Adding or editing an edge</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/vocab/vocab.html" target="_blank">Learning basic network terms</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/NodeSearch/nodeSearch.html" target="_blank">Finding a node</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/nodeCreate/nodeCreate.html" target="_blank">Adding or editing a node</a></li>
+		 <li><a href="https://netcreate.org/netcreate-userdocs/docs/UserGuide/edgeCreate/edgeCreate.html" target="_blank">Adding or editing an edge</a></li>
 	  </ul>
 	</li>
 	<li>
-	  <p><a href="https://youtu.be/au0A8By_tdE">An Expert Demonstrates Five Starter Steps to Explore a New-To-You Network in Net.Create (video)</a></p>
+	  <p><a href="https://youtu.be/au0A8By_tdE" target="_blank">An Expert Demonstrates Five Starter Steps to Explore a New-To-You Network in Net.Create (video)</a></p>
 
 	</li>
  </ul>

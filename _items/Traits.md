@@ -14,7 +14,7 @@ categories:
   - text-to-text
   - text-to-self
 shouldiuse:
-  text: "**Do you have a source where you want students to make deeper connections between themselves and a character or characters, or between characters in texts?** Make text-to-self and text-to-text connections in the following ways: "
+  text: "**Do you have a source where you want students to make deeper connections between themselves and a character or characters, or between characters in texts?** This network lets students make text-to-self and text-to-text connection."
   points:
     - "make connections between themselves and characters from a novel, short story, or other literary work, specifically focusing on character traits."
     - "make connections across literary works."

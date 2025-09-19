@@ -15,7 +15,7 @@ categories:
   - "text-to-self"
 shouldiuse:
   text: |
-    Do you have a source where you want students to make deeper connections between themselves and historical figures, or between historical figures in sources? If you want students to explore thematic connections between one or more historical sources and relate them to real-world student experiences, the 'Student Connections to Historical Traits' network template provides the opportunity to make text-to-self and text-to-text connections in the following ways:
+    Do you have a source where you want students to make deeper connections between themselves and historical figures, or between historical figures in sources? If you want students to explore thematic connections between one or more historical sources and relate them to real-world student experiences, the 'Student Connections to Historical Traits' network template provides the opportunity to make text-to-self and text-to-text connections.
   points:
     - "make connections between historical figures, institutions, and events"
     - "make connections across histories from different time periods and geographies."
