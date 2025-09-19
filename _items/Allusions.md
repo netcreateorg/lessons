@@ -5,7 +5,7 @@ author: "Net.Create Team"
 format: "ELA"
 shortdesc: "Do you want your students to see how one literary work is influenced by another?"
 networktemplate:
-  shortname: "ConsentedELAAllusions"
+  shortname: "ConsentedELAAllusion"
   title: "A sample network with data from varied student readings"
 categories:
   - "external references"
